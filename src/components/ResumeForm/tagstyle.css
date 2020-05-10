@@ -1,0 +1,53 @@
+.out {
+	height: 70vh;
+	/* border: 2px solid red; */
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 70vh;
+}
+.in {
+	margin-top: 5em;
+	text-align: center;
+	list-style: none;
+}
+
+.react-tags {
+	width: 500px;
+	/* border: 1px solid black; */
+}
+
+.react-tags__selected {
+	text-align: center;
+	min-height: 2.5em;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.react-tags__selected-tag {
+	color: white;
+	border: 1px solid #044d88;
+	border-radius: 4px;
+	margin-left: 8px;
+	background: #0071d0;
+	margin-top: 5px;
+}
+
+.react-tags__search {
+	text-align: center;
+	margin-top: 1em;
+	/* border: 2px solid blue; */
+}
+
+.react-tags__search-input {
+	/* border: 2px solid maroon; */
+}
+
+.react-tags__suggestions {
+	margin-top: 1em;
+	list-style: none;
+}
+
+.is-active {
+	list-style: none;
+}

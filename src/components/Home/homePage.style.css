@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.container2 {
+	min-height: 80vh;
+}
+.container {
+	font-family: 'Jost', sans-serif;
+}
+.container2 h1 {
+	color: #000000;
+}
+
+.hero-right {
+	width: 40%;
+}
+.hero-right img {
+	width: 90%;
+}
+
+/* .text-primary {
+	color: #6c63ff !important;
+} */
+.text-span {
+	color: #6c63ff;
+}
+.btn-primary {
+	background: #6c63ff !important;
+}
+/* 
+.btn-add {
+	float: right;
+} */
+
+#capture {
+	margin-top: 2em;
+	text-align: left;
+	margin-bottom: 2em;
+	padding: 1em;
+	-webkit-box-shadow: -15px 15px 30px -12px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -15px 15px 30px -12px rgba(0, 0, 0, 0.75);
+	box-shadow: -15px 15px 30px -12px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 775px) {
+	.container2 {
+		display: flex;
+		flex-direction: column-reverse;
+		padding-top: 3em;
+		text-align: center;
+	}
+}
